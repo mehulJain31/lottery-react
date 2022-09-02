@@ -7,10 +7,47 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #2f4f4f;
+  color: white;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+.button {
+  border: none;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.button1 {
+  background-color: #ff1493;
+  padding: 10px 20px;
+  color: white;
+}
+
+.button2 {
+  background-color: #7fff00;
+  padding: 14px 32px;
+  color: black;
+}
+
+input[type="text"] {
+  width: 10%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
 }
 
 .App-header {
